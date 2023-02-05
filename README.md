@@ -11,7 +11,7 @@ Microsoft provides several technology options for VDI implementations.
 Which technology to use?
 It depends on the specific business benefits, use case, customer size, workload size, team size and operations capabilities.
 
-### Modern Microsoft Virtual Desktop in a Cloud philosophy
+### Modern Microsoft Virtual Desktop in a Cloud benefits
 
 Modern Virtual Desktop is designed / ideal for following use cases:
 
@@ -20,14 +20,14 @@ Modern Virtual Desktop is designed / ideal for following use cases:
   - Short-term employees
   - Contractors and partners
 - Remote employees
-  - BYOD and mobile
+  - Bring your own device (BYOD) and mobile
   - Call centers
   - Branch workers
 - Specialized workloads
   - Design and engineering
   - Legacy apps
   - Software dev test
-  - Data science / Machine learning projects (quickly calculate models and shutdown)
+  - Data science / Machine learning projects (quickly calculate models and stop resources)
   - Enable GPU accelerated app rendering and encoding
 
 Business benefits of modern Virtual Desktop - cloud based solution:
@@ -48,7 +48,9 @@ Technological benefits and details:
 - Use existing Windows and Microsoft 365 licenses to access Windows 11 and Windows 10 and Microsoft Office
 - Run multiple desktop sessions on a single VM with exclusive Windows 11 and Windows 10 multi-session​
 
-More info here: <https://azure.microsoft.com/en-us/products/virtual-desktop/>
+#### Resources
+
+- <https://azure.microsoft.com/en-us/products/virtual-desktop/>
 
 ### Microsoft Virtual Desktop options
 
@@ -76,3 +78,14 @@ It is a very good solution for greenfield deployments and/or migrations from alt
 
 ## Windows 365 Cloud PC
 
+Windows 365 Enterprise is for organizations that want to manage their Cloud PCs with Microsoft Endpoint Manager and take advantage of integrations with other Microsoft services, including Azure Active Directory (Azure AD) and Microsoft Defender for Endpoint. Windows 365 Enterprise has no license limit.
+
+To use Windows 365 Enterprise, each user must be licensed for Windows 11 Enterprise or Windows 10 Enterprise, Endpoint Manager, and Azure AD P1. In addition to being available independently, these licenses are included in Microsoft 365 F3, Microsoft 365 E3, Microsoft 365 E5, Microsoft 365 A3, Microsoft 365 A5, Microsoft 365 Business Premium, and Microsoft 365 Education Student Use Benefit subscriptions.
+
+- Do you have any VDI expertise? Or do you not want to invest in up-skilling/have a partner manage your VDI? If no, Windows 365 is excellent option. Windows 365 is a DaaS solution and doesn't need VDI expertise to deploy and manage.
+- Do you currently use Microsoft Endpoint Manager (or Intune)? If yes, it's another good reason to use Windows 365.
+- Do you have existing eligible Windows/M365 license? Typically E3/E5? If yes, it's another good reason to use Windows 365.
+
+### Resources
+
+- <https://www.microsoft.com/en-us/windows-365/faq>
