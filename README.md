@@ -82,10 +82,28 @@ Windows 365 Enterprise is for organizations that want to manage their Cloud PCs 
 
 To use Windows 365 Enterprise, each user must be licensed for Windows 11 Enterprise or Windows 10 Enterprise, Endpoint Manager, and Azure AD P1. In addition to being available independently, these licenses are included in Microsoft 365 F3, Microsoft 365 E3, Microsoft 365 E5, Microsoft 365 A3, Microsoft 365 A5, Microsoft 365 Business Premium, and Microsoft 365 Education Student Use Benefit subscriptions.
 
-- Do you have any VDI expertise? Or do you not want to invest in up-skilling/have a partner manage your VDI? If no, Windows 365 is excellent option. Windows 365 is a DaaS solution and doesn't need VDI expertise to deploy and manage.
-- Do you currently use Microsoft Endpoint Manager (or Intune)? If yes, it's another good reason to use Windows 365.
-- Do you have existing eligible Windows/M365 license? Typically E3/E5? If yes, it's another good reason to use Windows 365.
+Business, Technical features and limitations:
+
+- Windows 365 is Desktop as a Service (DaaS) solution.
+- It's ideal for customers looking for managed service with always ready desktop.
+- It's dedicated (personal) Windows 10/11 desktop (only) running 24x7 with flat cost, predictable, per-user, per-month pricing and O365 license at least E3.
+- Optimal for the use cases like Office/Information worker with O365 where customer has no much expertize / none or small Virtual Desktop team.
+- Deployed Virtual Desktops can still be part of Enterprise network and desktop can be hardened as needed.
+- Custom images are supported.
+- Almost all Azure regions are supported and can be used for virtual desktop deployments.
+- Deploy, manage & secure via Microsoft Endpoint Manager & Web Portal
+- Supports Hybrid Azure Active Directory or Azure Active Directory Join.
+
+### Qualifying questions for Windows 365
+
+- Do you have any VDI expertise? Do you want to invest in up-skilling/have a partner manage your VDI? If no, Windows 365 is excellent option. Windows 365 is a DaaS solution and doesn't need VDI expertise to deploy and manage.
+- Do you currently use Microsoft Endpoint Manager (or Intune)? If yes, Windows 365 can be good option.
+- Do you have existing eligible Windows/M365 license? Typically E3/E5? If yes, Windows 365 can be good option.
+- Do you need predictable fixed per user, per month pricing? If yes, Windows 365 can be good option.
+- Windows 365 offers limited number of SKUs. See here: <https://www.microsoft.com/en-us/windows-365/enterprise/configure>. Do you think it fits into the requirements? If yes, Windows 365 can be good option.
+- Windows 365 is available over Microsoft managed public endpoint only (To support access desktop from anywhere). Do you think it fits into the requirements? If yes, Windows 365 can be good option.
 
 ### Resources
 
 - <https://www.microsoft.com/en-us/windows-365/faq>
+- <https://www.microsoft.com/en-us/windows-365/enterprise/configure>
