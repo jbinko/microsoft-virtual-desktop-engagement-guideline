@@ -60,13 +60,14 @@ Technological benefits and details:
   - Microsoft Dev Box (DaaS) - Dev workstation in the cloud - <https://azure.microsoft.com/en-us/products/dev-box>
 - Azure Virtual Desktop (AVD) - Cloud VDI platform that delivers hosted desktops and apps with maximum flexibility.
   This option is typically used (not required but recommended) with partner VDI solutions. Pure AVD without partner addons is harder to manage for larger environments.
-  - AVD with VMWare control plane
-  - AVD with Citrix control plane
-  - AVD with Nerdio or other third party control plane management tool
+  - AVD with Azure control plane - <https://azure.microsoft.com/en-us/products/virtual-desktop>
+  - AVD with VMWare control plane - <https://azure.microsoft.com/en-us/services/virtual-desktop/vmware-horizon-cloud>
+  - AVD with Citrix control plane - <https://azure.microsoft.com/en-us/services/virtual-desktop/citrix-virtual-apps-desktops-for-azure>
+  - AVD with Nerdio or other third party control plane management tool - <https://getnerdio.com/>
 - Traditional VDI On-Prem/IaaS - RDS/Citrix/VMware - NOT considered here as it's NOT considered as modern desktop implementation path.
 
-Generally, rule of thumb for choice is DaaS option based on Windows 365 Cloud PC or Microsoft Dev Box.
-This should be considered as the primary choice unless requirements guide us into other options.
+Generally, rule of thumb for default choice is DaaS option based on Windows 365 Cloud PC or Microsoft Dev Box.
+This should be considered as the primary choice unless requirements guide us into other directions.
 
 If DaaS solution does NOT fit into the requirements then consider AVD with VMWare or Citrix control plane.
 This makes especially sense for customers who have a team which is familiar with VMWare/Citrix VDI solution already
@@ -107,3 +108,23 @@ Business, Technical features and limitations:
 
 - <https://www.microsoft.com/en-us/windows-365/faq>
 - <https://www.microsoft.com/en-us/windows-365/enterprise/configure>
+
+## Microsoft Dev Box
+
+TODO
+
+## AVD with Azure control plane
+
+TODO
+
+## AVD with VMWare control plane
+
+TODO
+
+## AVD with Citrix control plane
+
+TODO
+
+## AVD with Nerdio or other third party control plane
+
+TODO
