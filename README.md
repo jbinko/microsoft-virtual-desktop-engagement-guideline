@@ -2,8 +2,8 @@
 
 The goal of this article is to provide a guideline on assessment of customer needs, requirements
 and architecture for virtual desktop projects based on Microsoft Virtual Desktop (VDI) technologies.
-Target audience is pre-sales team, so that the team can accelerate Virtual Desktop
-value based delivery and understand the project technical directions quickly.
+Target audience is pre-sales team and architects, so that the team can accelerate Virtual Desktop
+value based delivery and understand the project needs and technical directions quickly.
 
 ## Overview
 
@@ -25,6 +25,7 @@ Modern Virtual Desktop is designed / ideal for following use cases:
   - Branch workers
 - Specialized workloads
   - Design and engineering
+  - Remote management E.g. Jump hosts
   - Legacy apps
   - Software dev test
   - Data science / Machine learning projects (quickly calculate models and stop resources)
@@ -87,13 +88,15 @@ Business, Technical features and limitations:
 
 - Windows 365 is Desktop as a Service (DaaS) solution.
 - It's ideal for customers looking for managed service with always ready desktop.
-- It's dedicated (personal) Windows 10/11 desktop (only) running 24x7 with flat cost, predictable, per-user, per-month pricing and O365 license at least E3.
+- It's dedicated (personal) Windows 10/11 desktop (only) running 24x7 with flat cost for compute, predictable, per-user, per-month pricing and O365 license at least E3.
 - Optimal for the use cases like Office/Information worker with O365 where customer has no much expertize / none or small Virtual Desktop team.
 - Deployed Virtual Desktops can still be part of Enterprise network and desktop can be hardened as needed.
 - Custom images are supported.
 - Almost all Azure regions are supported and can be used for virtual desktop deployments.
 - Deploy, manage & secure via Microsoft Endpoint Manager & Web Portal
 - Supports Hybrid Azure Active Directory or Azure Active Directory Join.
+- Set conditional access policies that require users to connect via a compliant device.
+- Set multi-factor authentication (MFA) sign-in.
 
 ### Qualifying questions for Windows 365
 
@@ -111,7 +114,50 @@ Business, Technical features and limitations:
 
 ## Microsoft Dev Box
 
-TODO
+Microsoft Dev Box is another DaaS offering from Microsoft. Conceptually very similar to Windows 365 with low VDI maintenance.
+Key differentiators are pay for use model for compute (no flat cost), self service, desktop assigned to specific projects with specific set of tools.
+Microsoft Dev Box bridges the gap between development teams and IT, bringing control of project resources closer to the development team.
+Any use case based on desktop for developers might be good fit for Microsoft Dev Box offering.
+
+Microsoft Dev Box, is a managed service gives you self-service access to high-performance, pre-configured, and ready-to-code cloud-based workstations called dev boxes. You can set up dev boxes (Dev Box images) with the tools, source code, nightly built binaries, and pre-built binaries specific to your project, so you can immediately start work. Microsoft Dev Box empowers developers to focus on the code only they can write, making it easy for them to access the tools and resources they need without worrying about workstation configuration and maintenance.
+Microsoft Dev Box ensures developers always have the right tools and resources based on project, task, and even role.
+
+Developers stay in control of their Dev Boxes with a developer portal that enables them to create and delete their Dev Boxes for any of their projects. Developers can create Dev Boxes to experiment on a proof-of-concept, keep their projects separate, or even parallelize tasks across multiple Dev Boxes to avoid bogging down their primary environment. For devs working on legacy apps, they can maintain Dev Boxes for older versions of an application to quickly create an environment that can reproduce and diagnose critical customer issues as they emerge.
+
+When building Dev Boxes, dev teams select from a range of SKUs to define the right level of compute for each project and instantly scale up aging physical hardware. Thanks to Azure Active Directory integration, teams can rapidly onboard new team members by assigning them to Azure Active Directory groups that grant access to the Dev Boxes they need for their projects.
+
+At the same time, Microsoft Dev Box ensures unified management, security, and compliance stay in the hands of IT by leveraging Windows 365 to integrate Dev Boxes with Intune and Microsoft Endpoint Manager.
+
+To use Microsoft Dev Box, each user must be licensed for Windows 11 Enterprise or Windows 10 Enterprise, Microsoft Endpoint Manager, and Azure Active Directory P1.
+
+In addition to being available independently, these licenses are included in Microsoft 365 F3, Microsoft 365 E3, Microsoft 365 E5, Microsoft 365 A3, Microsoft 365 A5, Microsoft 365 Business Premium, and Microsoft 365 Education Student Use Benefit subscriptions.
+
+Business, Technical features and limitations:
+
+- Microsoft Dev Box is Desktop as a Service (DaaS) solution.
+- It's ideal for end users with development or machine learning needs.
+- It's dedicated (personal) Windows 10/11 desktop (only) running on demand with pay as you go cost, O365 license at least E3.
+- Optimal for teams which need to have some autonomy and are focused on project developments where developer team doesn't need much expertize on Virtual Desktop management and IT still can have security control.
+- Deployed Virtual Desktops can still be part of Enterprise network and desktop can be hardened as needed.
+- Custom images are supported.
+- Not all Azure regions are supported currently. Check the documentation for target regions <https://azure.microsoft.com/en-us/products/dev-box/#faq>.
+- Deploy, manage & secure via Microsoft Endpoint Manager & Web Portal. Dev boxes automatically enroll in Intune. Use Microsoft Endpoint Manager Portal to manage the dev boxes just like any other device on your network. Keep all Windows devices up to date by using Intune’s expedited quality updates to deploy zero-day patches across your organization.
+- Supports Hybrid Azure Active Directory or Azure Active Directory Join.
+- Set conditional access policies that require users to connect via a compliant device.
+- Set multi-factor authentication (MFA) sign-in.
+- Configure risk-based sign-in policies for Dev Boxes that access sensitive source code and customer data.
+- To keep costs under control, teams can use start/stop schedules to spin up Dev Boxes at the beginning of the day and automatically hibernate them when developers go home.
+
+### Qualifying questions for Microsoft Dev Box
+
+- Check first qualifying questions for Windows 365 option as Microsoft Dev Box has similar setup. Make sure you understand differentiators described above.
+- Microsoft Dev Box offers limited number of SKUs. See here: <https://azure.microsoft.com/en-us/pricing/details/dev-box/>. Do you think it fits into the requirements? If yes, Microsoft Dev Box can be good option.
+
+### Resources
+
+- <https://azure.microsoft.com/en-us/products/dev-box>
+- <https://azure.microsoft.com/en-us/pricing/details/dev-box>
+- <https://learn.microsoft.com/en-us/azure/dev-box/overview-what-is-microsoft-dev-box>
 
 ## AVD with Azure control plane
 
@@ -126,5 +172,9 @@ TODO
 TODO
 
 ## AVD with Nerdio or other third party control plane
+
+TODO
+
+## Project Delivery Checklist
 
 TODO
