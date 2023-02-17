@@ -114,12 +114,12 @@ Business, Technical features and limitations:
 
 ## Microsoft Dev Box
 
-Microsoft Dev Box is another DaaS offering from Microsoft. Conceptually very similar to Windows 365 with low VDI maintenance.
+Microsoft Dev Box is another DaaS offering from Microsoft. Conceptually very similar to Windows 365 with low VDI maintenance overhead.
 Key differentiators are pay for use model for compute (no flat cost), self service, desktop assigned to specific projects with specific set of tools.
 Microsoft Dev Box bridges the gap between development teams and IT, bringing control of project resources closer to the development team.
 Any use case based on desktop for developers might be good fit for Microsoft Dev Box offering.
 
-Microsoft Dev Box, is a managed service gives you self-service access to high-performance, pre-configured, and ready-to-code cloud-based workstations called dev boxes. You can set up dev boxes (Dev Box images) with the tools, source code, nightly built binaries, and pre-built binaries specific to your project, so you can immediately start work. Microsoft Dev Box empowers developers to focus on the code only they can write, making it easy for them to access the tools and resources they need without worrying about workstation configuration and maintenance.
+Microsoft Dev Box, is a managed service gives you self-service access to high-performance, pre-configured, and ready-to-code cloud-based workstations called dev boxes. You can set up dev boxes (Dev Box images) with the tools, source code, nightly built binaries, and pre-built binaries specific to your project, so you can immediately start work without worrying about workstation configuration and maintenance.
 Microsoft Dev Box ensures developers always have the right tools and resources based on project, task, and even role.
 
 Developers stay in control of their Dev Boxes with a developer portal that enables them to create and delete their Dev Boxes for any of their projects. Developers can create Dev Boxes to experiment on a proof-of-concept, keep their projects separate, or even parallelize tasks across multiple Dev Boxes to avoid bogging down their primary environment. For devs working on legacy apps, they can maintain Dev Boxes for older versions of an application to quickly create an environment that can reproduce and diagnose critical customer issues as they emerge.
@@ -151,6 +151,7 @@ Business, Technical features and limitations:
 ### Qualifying questions for Microsoft Dev Box
 
 - Check first qualifying questions for Windows 365 option as Microsoft Dev Box has similar setup. Make sure you understand differentiators described above.
+- Do you have an use case which is based on desktop for developers?  If yes, Microsoft Dev Box can be good option.
 - Microsoft Dev Box offers limited number of SKUs. See here: <https://azure.microsoft.com/en-us/pricing/details/dev-box/>. Do you think it fits into the requirements? If yes, Microsoft Dev Box can be good option.
 
 ### Resources
