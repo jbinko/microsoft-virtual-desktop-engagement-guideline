@@ -31,23 +31,31 @@ Modern Virtual Desktop is designed / ideal for following use cases:
   - Data science / Machine learning projects (quickly calculate models and stop resources)
   - Enable GPU accelerated app rendering and encoding
 
-Business benefits of modern Virtual Desktop - cloud based solution:
+Why Virtual Desktop in Cloud? Business benefits of modern Virtual Desktop:
 
-- Access your desktop and applications from anywhere (Productivity) - Desktop is available worldwide. Enable secure remote work. Provide employees the best virtualized experience with the only solution fully optimized for Windows 11 and Microsoft 365.
-- Bring your own device (BYOD) / Reduce Enterprise HW (Costs) - Access your desktop and applications over the internet from light devices using an Azure Virtual Desktop client such as Windows, Mac, iOS, Android, or HTML5.
-- Run multiple concurrent user sessions (Costs) - Choose the right Azure virtual machine (VM) to optimize performance and leverage the Windows 10 and Windows 11 multi-session advantage on Azure.
-- Leverage the seamless Microsoft Teams and Microsoft Office experience (Productivity) - Provide employees with the same experience they'd have on a local desktop or laptop - whether they're managing their inbox with Outlook, sharing files in OneDrive, or collaborating with colleagues on Microsoft Teams.
-- Deploy and scale in minutes (Costs) - Simplify deployment and management of your infrastructure and scale quickly based on your business needs.
-- Reduce cost using existing licenses (Costs) - Use existing eligible licenses to reduce costs with a modern cloud-based virtual desktop infrastructure (VDI), and pay only for what you use.
+- Benefits from Productivity perspective
+  - Access your desktop and applications from anywhere - Desktop is available worldwide. Enable secure remote work. Provide employees the best virtualized experience with the only solution fully optimized for Windows 11 and Microsoft 365.
+  - Leverage the seamless Microsoft Teams and Microsoft Office experience - Provide employees with the same experience they'd have on a local desktop or laptop - whether they're managing their inbox with Outlook, sharing files in OneDrive, or collaborating with colleagues on Microsoft Teams.
 
-Technological benefits and details:
+- Benefits from Costs perspective
+  - Bring your own device (BYOD) / Reduce Enterprise HW/Devices - Access your desktop and applications over the internet from light devices using an Azure Virtual Desktop client such as Windows, Mac, iOS, Android, or HTML5.
+  - Consolidate/Run multiple concurrent user sessions - Choose the right Azure virtual machine (VM) to optimize performance and leverage the Windows 10 and Windows 11 multi-session advantage on Azure.
+  - Migrate from peak capacity costs on-premises to actual consumption-based. Advanced power management and provisioning scale back idle VMs to save costs
+  - Simplify deployment and management of your infrastructure and scale quickly based on your business needs.
+  - Reduce cost using existing licenses E.g. E3/E5 - Use existing eligible licenses to reduce costs with a modern cloud-based virtual desktop infrastructure (VDI), and pay only for what you use.
+  - No need to manage gateways, brokers, database, or any other plumbing infrastructure
+  - Save with Linux-based pricing for Windows Server workloads with AVD - Hybrid Use Benefit.
+  - Migrate users with M365 license from Windows Server to Windows 10 multi-session to save on an RDS license - This can remove RDS CAL requirement. Standard price is ~$17 per user per month - this will be a cost saving for you per user.
 
-- Managed backend by Microsoft helps reduce the costs and time spent managing on-premises infrastructure / DMZ
-- Designed for connecting from everywhere (you can still limit access based on region, managed/approved device, approved identity, etc.)
-- Designed for Azure Active Directory based cloud identity with Conditional access and Multi-Factor Authentication to secure your virtual desktops
-- Manage desktop with classic tools like SCCM or with modern cloud tools like Microsoft Endpoint Manager and/or Defender for Endpoint
-- Use existing Windows and Microsoft 365 licenses to access Windows 11 and Windows 10 and Microsoft Office
-- Run multiple desktop sessions on a single VM with exclusive Windows 11 and Windows 10 multi-session​
+- Benefits from Technology perspective
+  - Connect from everywhere (you can still limit access based on region, managed/approved device, approved identity, etc.)
+  - Secure with Azure Active Directory based cloud identity with Conditional access and Multi-Factor Authentication to secure your virtual desktops
+  - Use existing Windows and Microsoft 365 licenses to access Windows 11 and Windows 10 and Microsoft Office
+  - Scale from Windows 10/11 Virtual Desktop to Azure exclusive Windows 10/11 multi-session
+  - Extend your compliance, security, and business requirements to the cloud
+  - Manage on-premises and cloud workloads side-by-side. Enable hybrid environments Leverage existing on-premises solutions together with Virtual Desktop in Azure
+  - Benefit from managed backend by Microsoft to reduce the costs and time spent managing on-premises infrastructure / DMZ. No need to manage gateways, brokers or any other infrastructure. Compute and storage management moves to cloud.
+  - Manage desktop with classic tools like SCCM or with modern cloud tools like Microsoft Endpoint Manager and/or Defender for Endpoint. Updates, patches, monitoring and other management is easier.
 
 #### Resources
 
@@ -164,11 +172,7 @@ Business, Technical features and limitations:
 
 TODO
 
-## AVD with VMWare control plane
-
-TODO
-
-## AVD with Citrix control plane
+## AVD with VMWare/Citrix control plane
 
 TODO
 
