@@ -176,6 +176,30 @@ TODO
 
 TODO
 
+Business, Technical features and limitations:
+
+- It should be the first option to consider for existing Citrix and VMware Horizon customers. It provides the same tools (Single pane of glass for all workloads) and reuses the same skill sets for all environments
+- Maximizes your on-premises investments and skills
+- Hybrid Architecture manages existing on-premises and cloud workloads side-by-side. Centrally manage images (enhanced image management capabilities), policies, and profiles.
+- Scale to the cloud with flexible IT management, maintaining on-premises investments, resources, and policies.
+- Single flexible licensing model supporting on-premises, cloud, and hybrid environments
+- Migrate, capacity burst, or load balance between datacenter and cloud.
+- Autoscale - Scale your environment up or out based on schedule or load. Make the best use of your existing datacenter investment and ramp sessions into the cloud as needed. Scale cloud workloads dynamically on demand.
+- Migrate from peak capacity costs on-premises to actual consumption-based
+- Extends your compliance, security, and business requirements to the cloud
+- Enterprise-class performance, consistent user experience due to advanced remote protocols deliver near-local desktop and app performance on a broad range of clients
+- Great use case Step into hybrid cloud for speed transition from on-prem workloads to Microsoft Azure and reduce time to value
+- Solution to handle planned/un-planned business continuity and disaster recovery requirements
+
+### Qualifying questions for VMWare/Citrix control plane
+
+- TODO
+
+### Resources
+
+- <https://azure.microsoft.com/en-us/services/virtual-desktop/citrix-virtual-apps-desktops-for-azure>
+- <https://azure.microsoft.com/en-us/services/virtual-desktop/vmware-horizon-cloud>
+
 ## AVD with Nerdio or other third party control plane
 
 TODO
