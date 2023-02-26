@@ -205,7 +205,11 @@ Business, Technical features and limitations:
 
 ### Qualifying questions for VMWare/Citrix control plane
 
-- TODO
+- Do you have a customer which is existing client of VMWare/Citrix VDI solution and they are happy with the product and they have required skill-set? If yes, VMWare/Citrix solution with Azure can be good option.
+- Do you need to support hybrid use case? E.g. Some users accessing desktops on-prem and some users accessing desktops in the cloud. If yes, VMWare/Citrix solution with Azure can be good option.
+- Do you need scale on-prem desktops to cloud maybe based on schedule or load/capacity burst? If yes, VMWare/Citrix solution with Azure can be good option.
+- Do you need expand compliance, security, and business continuity and disaster recovery requirements to the cloud via single pane of glass? If yes, VMWare/Citrix solution with Azure can be good option.
+- Do you need to use full enterprise solution with advanced or product specific features not available in AVD? If yes, VMWare/Citrix solution with Azure can be good option.
 
 ### Resources
 
