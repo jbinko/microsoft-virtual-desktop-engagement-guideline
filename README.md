@@ -174,21 +174,33 @@ TODO
 
 ## AVD with VMWare/Citrix control plane
 
-TODO
+Azure AVD with VMWare/Citrix control plane is ideal for organizations which are already using
+Citrix and VMware Horizon solutions for virtual desktops and they are happy with it.
+Such customers should be encouraged to use existing very mature tools and expand platform to the cloud
+for additional benefits.
+In the fact, Azure AVD with VMWare/Citrix control plane can help to accelerate cloud journey for enterprises
+which are the beginning with a cloud.
+For example business continuity and disaster recovery scenario can be great use case for such customers.
+Especially if customer has team which can operate the product in larger deployments with existing skill-set,
+and customer did other investments into the product.
+
+This is NOT necessarily about migrating control plane to cloud,
+this is more about overflowing virtual desktops into the cloud and benefiting from cloud elasticity.
+This is hybrid setup which allows renting hardware from the cloud based on current needs.
+
+Azure AVD with VMWare/Citrix control plane is on the other hand complex enterprise solution with
+all pros and cons requiring strong skill-set, hybrid architecture mindset,
+more traditional tools with full control and flexibility.
+Such solution can be harder to setup and manage for NOT skilled teams and greenfield environments.
 
 Business, Technical features and limitations:
 
-- It should be the first option to consider for existing Citrix and VMware Horizon customers. It provides the same tools (Single pane of glass for all workloads) and reuses the same skill sets for all environments
-- Maximizes your on-premises investments and skills
-- Hybrid Architecture manages existing on-premises and cloud workloads side-by-side. Centrally manage images (enhanced image management capabilities), policies, and profiles.
-- Scale to the cloud with flexible IT management, maintaining on-premises investments, resources, and policies.
-- Single flexible licensing model supporting on-premises, cloud, and hybrid environments
-- Migrate, capacity burst, or load balance between datacenter and cloud.
-- Autoscale - Scale your environment up or out based on schedule or load. Make the best use of your existing datacenter investment and ramp sessions into the cloud as needed. Scale cloud workloads dynamically on demand.
-- Migrate from peak capacity costs on-premises to actual consumption-based
-- Extends your compliance, security, and business requirements to the cloud
-- Enterprise-class performance, consistent user experience due to advanced remote protocols deliver near-local desktop and app performance on a broad range of clients
-- Great use case Step into hybrid cloud for speed transition from on-prem workloads to Microsoft Azure and reduce time to value
+- First option to consider for existing Citrix and VMware Horizon customers. It provides the same tools (Single pane of glass for all workloads) and reuses the same skill sets for all environments. Maximizes existing on-premises investments and skills
+- Hybrid Architecture allows to manage existing on-premises and cloud workloads side-by-side. Can centrally manage images with enhanced image management capabilities, policies, and profiles. Accelerates transition from on-prem workloads to Microsoft Azure and reduce time to value
+- Scales environment up or out based on schedule or load. Ramp sessions into the cloud as needed. Capacity burst, or load balance between datacenter and cloud.
+- Expands compliance, security, and business requirements to the cloud
+- Enterprise-class performance, consistent user experience, advanced remote protocols deliver near-local desktop and app performance on a broad range of clients
+- Provides single flexible licensing model supporting on-premises, cloud, and hybrid environments
 - Solution to handle planned/un-planned business continuity and disaster recovery requirements
 
 ### Qualifying questions for VMWare/Citrix control plane
