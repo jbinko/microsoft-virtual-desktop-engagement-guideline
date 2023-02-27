@@ -35,7 +35,7 @@ Why Virtual Desktop in Cloud? Business benefits of modern Virtual Desktop:
 
 - Benefits from Productivity perspective
   - Access your desktop and applications from anywhere - Desktop is available worldwide. Enable secure remote work. Provide employees the best virtualized experience with the only solution fully optimized for Windows 11 and Microsoft 365.
-  - Leverage the seamless Microsoft Teams and Microsoft Office experience - Provide employees with the same experience they would have on a local desktop or laptop - whether they're managing their inbox with Outlook, sharing files in OneDrive, or collaborating with colleagues on Microsoft Teams.
+  - Leverage the seamless Microsoft Teams and Microsoft Office experience - Provide employees with the same experience they would have on a local desktop or laptop - whether they are managing their inbox with Outlook, sharing files in OneDrive, or collaborating with colleagues on Microsoft Teams.
 
 - Benefits from Costs perspective
   - Bring your own device (BYOD) / Reduce Enterprise HW/Devices - Access your desktop and applications over the internet from light devices using an Azure Virtual Desktop client such as Windows, Mac, iOS, Android, or HTML5.
@@ -49,10 +49,10 @@ Why Virtual Desktop in Cloud? Business benefits of modern Virtual Desktop:
 
 - Benefits from Technology perspective
   - Connect from everywhere (you can still limit access based on region, managed/approved device, approved identity, etc.)
-  - Secure with Azure Active Directory based cloud identity with Conditional access and Multi-Factor Authentication to secure your virtual desktops
+  - Secure with Azure Active Directory based cloud identity with Conditional access and Multi-Factor Authentication to secure your virtual desktops.
   - Use existing Windows and Microsoft 365 licenses to access Windows 11 and Windows 10 and Microsoft Office
   - Scale from Windows 10/11 Virtual Desktop to Azure exclusive Windows 10/11 multi-session
-  - Extend your compliance, security, and business requirements to the cloud
+  - Extend your compliance, security, and business requirements to the cloud.
   - Manage on-premises and cloud workloads side-by-side. Enable hybrid environments Leverage existing on-premises solutions together with Virtual Desktop in Azure
   - Benefit from managed backend by Microsoft to reduce the costs and time spent managing on-premises infrastructure / DMZ. No need to manage gateways, brokers or any other infrastructure. Compute and storage management moves to cloud.
   - Manage desktops with classic tools like SCCM or with modern cloud tools like Microsoft Endpoint Manager and/or Defender for Endpoint. Updates, patches, monitoring, and other management are easier.
@@ -64,7 +64,7 @@ Why Virtual Desktop in Cloud? Business benefits of modern Virtual Desktop:
 ### Microsoft Virtual Desktop options
 
 - Desktop as a Service (DaaS) - A complete service that securely streams
-  your personalized Windows desktop, apps, settings, and content from the Microsoft cloud, to any device
+  your personalized Windows desktop, apps, settings, and content from the Microsoft cloud to any device.
   - Windows 365 Cloud PC (DaaS) - <https://www.microsoft.com/en-us/windows-365>
   - Microsoft Dev Box (DaaS) - Dev workstation in the cloud - <https://azure.microsoft.com/en-us/products/dev-box>
 - Azure Virtual Desktop (AVD) - Cloud VDI platform that delivers hosted desktops and apps with maximum flexibility.
@@ -72,11 +72,11 @@ Why Virtual Desktop in Cloud? Business benefits of modern Virtual Desktop:
   - AVD with Azure control plane - <https://azure.microsoft.com/en-us/products/virtual-desktop>
   - AVD with VMWare control plane - <https://azure.microsoft.com/en-us/services/virtual-desktop/vmware-horizon-cloud>
   - AVD with Citrix control plane - <https://azure.microsoft.com/en-us/services/virtual-desktop/citrix-virtual-apps-desktops-for-azure>
-  - AVD with Nerdio or other third party control plane management tool - <https://getnerdio.com/>
+  - AVD with Nerdio or other third-party control plane management tool - <https://getnerdio.com/>
 - Traditional VDI On-Prem/IaaS - RDS/Citrix/VMware - NOT considered here as it's NOT considered as modern desktop implementation path.
 
-Generally, rule of thumb for default choice is DaaS option based on Windows 365 Cloud PC or Microsoft Dev Box.
-This should be considered as the primary choice unless requirements guide us into other directions.
+Generally, rule of thumb for default choice is the DaaS option based on Windows 365 Cloud PC or Microsoft Dev Box.
+This should be considered as the primary choice unless requirements guide us in other directions.
 
 If DaaS solution does NOT fit into the requirements then consider AVD with VMWare or Citrix control plane.
 This makes especially sense for customers who have a team which is familiar with VMWare/Citrix VDI solution already
@@ -108,8 +108,8 @@ Business, Technical features and limitations:
 
 ### Qualifying questions for Windows 365
 
-- Do you have any VDI expertise? Do you want to invest in up-skilling/have a partner manage your VDI? If not, Windows 365 is excellent option. Windows 365 is a DaaS solution and does not need VDI expertise to deploy and manage.
-- Do you currently use Microsoft Endpoint Manager (or Intune)? If yes, Windows 365 can be good option.
+- Do you have any VDI expertise? Do you want to invest in up-skilling/have a partner manage your VDI? If not, Windows 365 is an excellent option. Windows 365 is a DaaS solution and does not need VDI expertise to deploy and manage.
+- Do you currently use Microsoft Endpoint Manager (or Intune)? If yes, Windows 365 can be a good option.
 - Do you have existing eligible Windows/M365 license? Typically, E3/E5? If yes, Windows 365 can be a good option.
 - Do you need predictable fixed per user, per month pricing? If yes, Windows 365 can be a good option.
 - Windows 365 offers a limited number of SKUs. See here: <https://www.microsoft.com/en-us/windows-365/enterprise/configure>. Do you think it fits into the requirements? If yes, Windows 365 can be good option.
@@ -127,7 +127,7 @@ Key differentiators are pay for use model for compute (no flat cost), self-servi
 Microsoft Dev Box bridges the gap between development teams and IT, bringing control of project resources closer to the development team.
 Any use case based on desktop for developers might be good fit for Microsoft Dev Box offering.
 
-Microsoft Dev Box, is a managed service gives you self-service access to high-performance, pre-configured, and ready-to-code cloud-based workstations called dev boxes. You can set up dev boxes (Dev Box images) with the tools, source code, nightly built binaries, and pre-built binaries specific to your project, so you can immediately start work without worrying about workstation configuration and maintenance.
+Microsoft Dev Box is a managed service gives you self-service access to high-performance, pre-configured, and ready-to-code cloud-based workstations called dev boxes. You can set up dev boxes (Dev Box images) with the tools, source code, nightly built binaries, and pre-built binaries specific to your project, so you can immediately start work without worrying about workstation configuration and maintenance.
 Microsoft Dev Box ensures developers always have the right tools and resources based on project, task, and even role.
 
 Developers stay in control of their Dev Boxes with a developer portal that enables them to create and delete their Dev Boxes for any of their projects. Developers can create Dev Boxes to experiment on a proof-of-concept, keep their projects separate, or even parallelize tasks across multiple Dev Boxes to avoid bogging down their primary environment. For developers working on legacy apps, they can maintain Dev Boxes for older versions of an application to quickly create an environment that can reproduce and diagnose critical customer issues as they emerge.
@@ -143,8 +143,8 @@ In addition to being available independently, these licenses are included in Mic
 Business, Technical features and limitations:
 
 - Microsoft Dev Box is Desktop as a Service (DaaS) solution.
-- It's ideal for end users with development or machine learning needs.
-- It's dedicated (personal) Windows 10/11 desktop (only) running on demand with pay as you go cost, O365 license at least E3.
+- It is ideal for end users with development or machine learning needs.
+- It is dedicated (personal) Windows 10/11 desktop (only) running on demand with pay as you go cost, O365 license at least E3.
 - Optimal for teams which need to have some autonomy and are focused on project developments where developer team doesn't need much expertise on Virtual Desktop management and IT still can have security control.
 - Deployed Virtual Desktops can still be part of Enterprise network and desktops can be hardened as needed.
 - Custom images are supported.
@@ -196,7 +196,7 @@ Such solution can be harder to setup and manage for NOT skilled teams and greenf
 Business, Technical features and limitations:
 
 - The first option to consider is for existing Citrix and VMware Horizon customers. It provides the same tools (Single pane of glass for all workloads) and reuses the same skill sets for all environments. Maximize existing on-premises investments and skills.
-- Hybrid Architecture allows us to manage existing on-premises and cloud workloads side-by-side. Can centrally manage images with enhanced image management capabilities, policies, and profiles. Accelerates transition from on-prem workloads to Microsoft Azure and reduces time to value
+- Hybrid Architecture allows us to manage existing on-premises and cloud workloads side-by-side. Can centrally manage images with enhanced image management capabilities, policies, and profiles. Accelerates transition from on-prem workloads to Microsoft Azure and reduces time to value.
 - Scales environment up or out based on schedule or load. Ramp sessions into the cloud as needed. Capacity burst, or load balance between datacenter and cloud.
 - Expands compliance, security, and business requirements to the cloud.
 - Enterprise-class performance, consistent user experience, advanced remote protocols deliver near-local desktop and app performance on a broad range of clients.
@@ -205,10 +205,10 @@ Business, Technical features and limitations:
 
 ### Qualifying questions for VMWare/Citrix control plane
 
-- Do you have a customer which is existing client of VMWare/Citrix VDI solution, and they are happy with the product and they have required skill-set? If yes, VMWare/Citrix solution with Azure can be good option.
-- Do you need to support hybrid use cases? E.g., Some users accessing desktops on-prem and some users accessing desktops in the cloud. If yes, VMWare/Citrix solution with Azure can be good option.
-- Do you need scale on-prem desktops to cloud based on schedule or load/capacity burst? If yes, VMWare/Citrix solution with Azure can be good option.
-- Do you need expand compliance, security, and business continuity and disaster recovery requirements to the cloud via single pane of glass? If yes, VMWare/Citrix solution with Azure can be a good option.
+- Do you have a customer who is an existing client of VMWare/Citrix VDI solution, and they are happy with the product, and they have required skill-set? If yes, VMWare/Citrix solution with Azure can be a good option.
+- Do you need to support hybrid use cases? E.g., Some users access desktops on-prem and some users accessing desktops in the cloud. If yes, VMWare/Citrix solution with Azure can be a good option.
+- Do you need scale on-prem desktops to cloud based on schedule or load/capacity burst? If yes, VMWare/Citrix solution with Azure can be a good option.
+- Do you need to expand compliance, security, and business continuity and disaster recovery requirements to the cloud via single pane of glass? If yes, VMWare/Citrix solution with Azure can be a good option.
 - Do you need to use full enterprise solution with advanced or product specific features not available in AVD? If yes, VMWare/Citrix solution with Azure can be a good option.
 
 ### Resources
