@@ -168,9 +168,56 @@ Business, Technical features and limitations:
 - <https://azure.microsoft.com/en-us/pricing/details/dev-box>
 - <https://learn.microsoft.com/en-us/azure/dev-box/overview-what-is-microsoft-dev-box>
 
-## AVD with Azure control plane
+## AVD with Azure control plane (pure AVD)
 
-TODO
+Pure AVD (without more sophisticated control plane) might look like very compelling option for some companies.
+Especially for companies focused on dramatic cost savings.
+Cost of AVD can be lower than other more matured enterprise VDI solutions if you do it right.
+Especially with multi session Azure exclusive combination.
+However, VMs in any cloud platform (including Azure) are not the cheapest cloud resource and they are hard to utilize
+effectively and that is why this is critical factor for the success.
+
+Below is the description of things you need to focus on if you really need to use pure AVD.
+You can definitely have great success with pure AVD and even support larger environments if you have to.
+AVD has scalability for this and can support multiple ten thousands deployments.
+Generally, it is always recommended for Enterprises and larger deployments to use AVD with some 3rd party product
+to keep cost and management under the control.
+Pure AVD was designed as open VDI platform than enterprise, feature rich product.
+
+For pure AVD you need to design for multi-session approach and do consolidation to the
+fewest VMs possible to keep the cost under the control.
+This requires to do some home work on understanding end user personas and users' workloads
+to classify workloads and personas into categories.
+Some tools and partners exists who can help with this but this needs to be considered as
+critical task during the project delivery.
+
+Pure AVD is limited with automated scale out/in capabilities based on Desktops utilizations.
+Not much sophisticated algorithm for this is provided currently.
+What is available out of the box is simple algorithm based on time schedule (hard on/off at specific time).
+
+AVD is the open platform which is designed to be enriched by third party tools.
+Microsoft has no ambitions to create full enterprise ready solution for virtual desktop with feature parity with partners solutions
+and Microsoft do not want to compete with Microsoft partners and provide feature rich tool for dramatically lower cost.
+
+To be successful with VDI solution based on pure AVD platform you need to be ready to have experienced team with the right skill set.
+Team needs to be ready to master the open platform and create different scripts for automation, REST API calls,
+ideally through Infrastructure as a code and via DevOps practices.
+Team needs to be fluent with how Azure works conceptually.
+Pure AVD is limited with user interface for management.
+Some key activities can be done only through some kind of scripting.
+
+It is not generally advisable to migrate from on-prem enterprise VDI solutions (like Citrix/VMWare) into pure AVD solution as VDI team familiar with Citrix/VMWare
+products will be probably missing some features and tools they are used to and they might hit feature limits quickly.
+This can create push back from the adoption point of view, constant feature set comparison debates and failure of the project,
+which could have done differently.
+
+Unless the use case is about smaller greenfield environments (less than 1000 VMs) with skilled team with DevOps practices
+you should almost always think about using AVD with some 3rd party products or Microsoft DaaS solutions as described in other sections this article.
+It probably doesn't even make sense to start with PoC if you are not meeting conditions mentioned above.
+
+If you still tend to think about using pure AVD please consider at least AVD with Nerdio option described below.
+It can payout for itself from additional cost savings point of view and awesome advanced management features, so
+such setup can be even cheaper than pure AVD with much simpler platform management.
 
 ## AVD with VMWare/Citrix control plane
 
