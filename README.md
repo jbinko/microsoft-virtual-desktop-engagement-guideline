@@ -178,17 +178,17 @@ However, VMs in any cloud platform (including Azure) are not the cheapest cloud 
 effectively and that is why this is critical factor for the success.
 
 Below is the description of things you need to focus on if you really need to use pure AVD.
-You can definitely have great success with pure AVD and even support larger environments if you have to.
-AVD has scalability for this and can support multiple ten thousands deployments.
-Generally, it is always recommended for Enterprises and larger deployments to use AVD with some 3rd party product
+You can have remarkable success with pure AVD and even support larger environments if you have to.
+AVD has scalability for this and can support multiple ten thousand deployments.
+It is always recommended for Enterprises and larger deployments to use AVD with some 3rd party product
 to keep cost and management under the control.
 Pure AVD was designed as open VDI platform rather than complete enterprise, feature rich product.
 
 For pure AVD you need to design for multi-session approach and do consolidation to the
 fewest VMs possible to keep the cost under the control.
-This requires to do some home work on understanding end user personas and users' workloads
+This requires doing some homework on understanding end user personas and users' workloads
 to classify workloads and personas into categories.
-Some tools and partners exists who can help with this but this needs to be considered as
+Some tools and partners exist who can help with this but this needs to be considered as
 critical task during the project delivery.
 
 Pure AVD is limited with automated scale out/in capabilities based on Desktops utilizations.
@@ -199,39 +199,39 @@ AVD is the open platform which is designed to be enriched by third party tools.
 Microsoft has no ambitions to create full enterprise ready solution for virtual desktop with feature parity with partners solutions
 and Microsoft do not want to compete with Microsoft partners and provide feature rich tool for dramatically lower cost.
 
-To be successful with VDI solution based on pure AVD platform you need to be ready to have experienced team with the right skill set.
+To be successful with a VDI solution based on pure AVD platform you need to be ready to have an experienced team with the right skill set.
 Team needs to be ready to master the open platform and create different scripts for automation, REST API calls,
 ideally through Infrastructure as a code and be disciplined with DevOps practices which operation teams rarely are.
 Team needs to be fluent with how Azure works conceptually.
 Pure AVD is limited with user interface for management.
 Some key activities can be done only through some kind of scripting.
 
-It is not generally advisable to migrate from on-prem enterprise VDI solutions (like Citrix/VMWare) into pure AVD solution as VDI team familiar with Citrix/VMWare
-products will be probably missing some features and tools they are used to and they might hit some feature limits quickly.
+It is not advisable to migrate from on-prem enterprise VDI solutions (like Citrix/VMWare) into pure AVD solution as VDI team familiar with Citrix/VMWare
+products will be missing some features and tools they are used to, and they might hit some feature limits quickly.
 This can create push back from the adoption point of view, constant feature set comparison debates and failure of the project,
 which could have been done differently.
 
 Unless the use case is about smaller greenfield environments (less than 1000 VMs/less than 1000 Users) with skilled team with DevOps practices
-you should almost always think about using AVD with some 3rd party products or Microsoft DaaS solutions as described in other sections this article.
-It probably doesn't even make sense to start with PoC if you are not meeting conditions mentioned above.
+you should always think about using AVD with some 3rd party products or Microsoft DaaS solutions as described in other sections this article.
+It does not even make sense to start with PoC if you are not meeting the conditions mentioned above.
 
 If you still tend to think about using pure AVD please consider at least AVD with Nerdio option described below.
-It can payout for itself from additional cost savings point of view and awesome advanced management features.
-Such setup can be even cheaper than pure AVD with much simpler platform management.
+It can pay for itself from an additional cost savings point of view and impressive advanced management features.
+Such setup can be even cheaper than pure AVD with basic platform management.
 
 Business, Technical features and limitations:
 
-- Pure AVD approach should be used for smaller projects only
+- Pure AVD approach should be used for smaller projects only.
 - Management of pure AVD is harder, more complex and is not feature rich product (it is more platform than enterprise product).
-- You might save some money on 3rd party licenses but cost might be increased on management side during custom development/management
+- You might save some money on 3rd party licenses, but cost might be increased on management side during custom development/management.
 - Not suitable option for teams familiar with Citrix/VMWare products and features (high expectations)
-- Pure AVD is the least recommended approach and the most risky for VDI project success. More better alternative approaches exists.
+- Pure AVD is the least recommended approach and the riskiest for VDI project success. Better alternative approaches exist.
 
 ### Qualifying questions for AVD with Azure management plane (pure AVD)
 
 - You really should have good reason to use pure AVD without any 3rd party management plane. Management for larger projects with pure AVD can be hard. If yes, pure AVD can be an option.
-- Do you have greenfield project with total number of VMs/Users less than 1000? If yes, pure AVD can be an option.
-- Can you design for multi-session approach? Do you understand end user personas and users' workloads? Have you done any assessment to classify workloads and personas into categories? If yes, pure AVD can be an option.
+- Do you have greenfield projects with total number of VMs/Users less than 1000? If yes, pure AVD can be an option.
+- Can you design a multi-session approach? Do you understand end user personas and users' workloads? Have you done any assessment to classify workloads and personas into categories? If yes, pure AVD can be an option.
 - Are you OK to do management of AVD in hard way through limited user interface? If yes, pure AVD can be an option.
 - Are you OK with limited automation capabilities and scale out/in capabilities based on desktops utilization? If yes, pure AVD can be an option.
 - Are you OK with custom development, dashboards customizations, being creative with creating automation/management scripts? If yes, pure AVD can be an option.
