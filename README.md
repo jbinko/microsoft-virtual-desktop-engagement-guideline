@@ -209,7 +209,7 @@ Some key activities can be done only through some kind of scripting.
 It is not generally advisable to migrate from on-prem enterprise VDI solutions (like Citrix/VMWare) into pure AVD solution as VDI team familiar with Citrix/VMWare
 products will be probably missing some features and tools they are used to and they might hit some feature limits quickly.
 This can create push back from the adoption point of view, constant feature set comparison debates and failure of the project,
-which could have done differently.
+which could have been done differently.
 
 Unless the use case is about smaller greenfield environments (less than 1000 VMs/less than 1000 Users) with skilled team with DevOps practices
 you should almost always think about using AVD with some 3rd party products or Microsoft DaaS solutions as described in other sections this article.
@@ -229,12 +229,12 @@ Business, Technical features and limitations:
 
 ### Qualifying questions for AVD with Azure management plane (pure AVD)
 
-- You really should have good reason to use pure AVD withouth any 3rd party management plane. Management for larger projects with pure AVD can be hard. If yes, pure AVD can be an option.
+- You really should have good reason to use pure AVD without any 3rd party management plane. Management for larger projects with pure AVD can be hard. If yes, pure AVD can be an option.
 - Do you have greenfield project with total number of VMs/Users less than 1000? If yes, pure AVD can be an option.
-- Can you design for multi-session approach? Do you understand end user personas and users' workloads? Have you done any essesment to classify workloads and personas into categories? If yes, pure AVD can be an option.
+- Can you design for multi-session approach? Do you understand end user personas and users' workloads? Have you done any assessment to classify workloads and personas into categories? If yes, pure AVD can be an option.
 - Are you OK to do management of AVD in hard way through limited user interface? If yes, pure AVD can be an option.
 - Are you OK with limited automation capabilities and scale out/in capabilities based on desktops utilization? If yes, pure AVD can be an option.
-- Are you OK with custom development, dashboards customizations, beign creative with creating automation/management scripts? If yes, pure AVD can be an option.
+- Are you OK with custom development, dashboards customizations, being creative with creating automation/management scripts? If yes, pure AVD can be an option.
 - Do you have an experienced team which knows Azure well, prefers raw open platform approach with flexibility, has knowledge about Azure AVD, has DevOps discipline and scripting skills, is comfortable with REST API calls and Infrastructure as a code? If yes, pure AVD can be an option.
 
 ### Resources
