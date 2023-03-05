@@ -195,14 +195,14 @@ Pure AVD is limited with automated scale out/in capabilities based on Desktops u
 Not much sophisticated algorithm for this is provided currently.
 What is available out of the box is simple algorithm based on time schedule (hard on/off at specific time).
 
-AVD is the open platform which is designed to be enriched by third party tools.
+AVD is an open platform which is designed to be enriched by third party tools.
 Microsoft has no ambitions to create full enterprise ready solution for virtual desktop with feature parity with partners solutions
-and Microsoft do not want to compete with Microsoft partners and provide feature rich tool for dramatically lower cost.
+and Microsoft does not want to compete with Microsoft partners and provide feature rich tool for dramatically lower cost.
 
 To be successful with a VDI solution based on pure AVD platform you need to be ready to have an experienced team with the right skill set.
 Team needs to be ready to master the open platform and create different scripts for automation, REST API calls,
 ideally through Infrastructure as a code and be disciplined with DevOps practices which operation teams rarely are.
-Team needs to be fluent with how Azure works conceptually.
+The team needs to be fluent with how Azure works conceptually.
 Pure AVD is limited with user interface for management.
 Some key activities can be done only through some kind of scripting.
 
@@ -217,7 +217,7 @@ It does not even make sense to start with PoC if you are not meeting the conditi
 
 If you still tend to think about using pure AVD please consider at least AVD with Nerdio option described below.
 It can pay for itself from an additional cost savings point of view and impressive advanced management features.
-Such setup can be even cheaper than pure AVD with basic platform management.
+Such a setup can be even cheaper than pure AVD with basic platform management.
 
 Business, Technical features and limitations:
 
