@@ -69,16 +69,16 @@ Why Virtual Desktop in Cloud? Business benefits of modern Virtual Desktop:
   - Microsoft Dev Box (DaaS) - Dev workstation in the cloud - <https://azure.microsoft.com/en-us/products/dev-box>
 - Azure Virtual Desktop (AVD) - Cloud VDI platform that delivers hosted desktops and apps with maximum flexibility.
   This option is typically used (not required but recommended) with partner VDI solutions. Pure AVD without partner addons is harder to manage for larger environments.
-  - AVD with Azure control plane - <https://azure.microsoft.com/en-us/products/virtual-desktop>
-  - AVD with VMWare control plane - <https://azure.microsoft.com/en-us/services/virtual-desktop/vmware-horizon-cloud>
-  - AVD with Citrix control plane - <https://azure.microsoft.com/en-us/services/virtual-desktop/citrix-virtual-apps-desktops-for-azure>
-  - AVD with Nerdio or other third-party control plane management tool - <https://getnerdio.com/>
+  - AVD with Azure management plane - <https://azure.microsoft.com/en-us/products/virtual-desktop>
+  - AVD with VMWare management plane - <https://azure.microsoft.com/en-us/services/virtual-desktop/vmware-horizon-cloud>
+  - AVD with Citrix management plane - <https://azure.microsoft.com/en-us/services/virtual-desktop/citrix-virtual-apps-desktops-for-azure>
+  - AVD with Nerdio or other third-party management plane - <https://getnerdio.com/>
 - Traditional VDI On-Prem/IaaS - RDS/Citrix/VMware - NOT considered here as it's NOT considered as modern desktop implementation path.
 
 Generally, rule of thumb for default choice is the DaaS option based on Windows 365 Cloud PC or Microsoft Dev Box.
 This should be considered as the primary choice unless requirements guide us in other directions.
 
-If DaaS solution does NOT fit into the requirements then consider AVD with VMWare or Citrix control plane.
+If DaaS solution does NOT fit into the requirements then consider AVD with VMWare or Citrix management plane.
 This makes especially sense for customers who have a team which is familiar with VMWare/Citrix VDI solution already
 and they would like to expand the solution into the cloud (brownfield deployment).
 
@@ -168,9 +168,9 @@ Business, Technical features and limitations:
 - <https://azure.microsoft.com/en-us/pricing/details/dev-box>
 - <https://learn.microsoft.com/en-us/azure/dev-box/overview-what-is-microsoft-dev-box>
 
-## AVD with Azure control plane (pure AVD)
+## AVD with Azure management plane (pure AVD)
 
-Pure AVD (without more sophisticated control plane) might look like very compelling option for some companies.
+Pure AVD (without more sophisticated management plane) might look like very compelling option for some companies.
 Especially for companies focused on dramatic cost savings.
 Cost of AVD can be lower than other more matured enterprise VDI solutions if you do it right.
 Especially with multi session Azure exclusive combination.
@@ -227,7 +227,7 @@ Business, Technical features and limitations:
 - Not suitable option for teams familiar with Citrix/VMWare products and features (high expectations)
 - Pure AVD is the least recommended approach and the most risky for VDI project success. More better alternative approaches exists.
 
-### Qualifying questions for AVD with Azure control plane (pure AVD)
+### Qualifying questions for AVD with Azure management plane (pure AVD)
 
 - You really should have good reason to use pure AVD withouth any 3rd party management plane. Management for larger projects with pure AVD can be hard. If yes, pure AVD can be an option.
 - Do you have greenfield project with total number of VMs/Users less than 1000? If yes, pure AVD can be an option.
@@ -241,23 +241,23 @@ Business, Technical features and limitations:
 
 - <https://azure.microsoft.com/en-us/products/virtual-desktop>
 
-## AVD with VMWare/Citrix control plane
+## AVD with VMWare/Citrix management plane
 
-Azure AVD with VMWare/Citrix control plane is ideal for organizations which are already using
+Azure AVD with VMWare/Citrix management plane is ideal for organizations which are already using
 Citrix and VMware Horizon solution for virtual desktops, and they are happy with it.
 Such customers should be encouraged to use existing very mature tools and expand their platform to the cloud
 for additional benefits.
-In the fact, Azure AVD with VMWare/Citrix control plane can help to accelerate cloud journey for enterprises
+In the fact, Azure AVD with VMWare/Citrix management plane can help to accelerate cloud journey for enterprises
 which are the beginning with a cloud.
 For example, business continuity and disaster recovery scenarios can be great use case for such customers.
 Especially if customer has team which can operate the product in larger deployments with existing skill set,
 and customer did other investments into the product.
 
-This is NOT necessarily about migrating control plane to cloud;
+This is NOT necessarily about migrating management plane to cloud;
 this is more about overflowing virtual desktops into the cloud and benefiting from cloud elasticity.
 This is a hybrid setup which allows renting hardware from the cloud - based on current needs.
 
-Azure AVD with VMWare/Citrix control plane is on the other hand complex enterprise solution with
+Azure AVD with VMWare/Citrix management plane is on the other hand complex enterprise solution with
 all pros and cons requiring strong skill set, hybrid architecture mindset,
 more traditional tools with full control and flexibility.
 Such a solution can be harder to setup and manage for NOT skilled teams and greenfield environments.
@@ -272,7 +272,7 @@ Business, Technical features and limitations:
 - Provides single flexible licensing model supporting on-premises, cloud, and hybrid environments.
 - Solution to handle planned/un-planned business continuity and disaster recovery requirements.
 
-### Qualifying questions for VMWare/Citrix control plane
+### Qualifying questions for VMWare/Citrix management plane
 
 - Do you have a customer who is an existing client of VMWare/Citrix VDI solution, and they are happy with the product, and they have required skill set? If yes, VMWare/Citrix solution with Azure can be a good option.
 - Do you need to support hybrid use cases? E.g., Some users access desktops on-prem and some users accessing desktops in the cloud. If yes, VMWare/Citrix solution with Azure can be a good option.
@@ -285,7 +285,7 @@ Business, Technical features and limitations:
 - <https://azure.microsoft.com/en-us/services/virtual-desktop/citrix-virtual-apps-desktops-for-azure>
 - <https://azure.microsoft.com/en-us/services/virtual-desktop/vmware-horizon-cloud>
 
-## AVD with Nerdio or other third-party control plane
+## AVD with Nerdio or other third-party management plane
 
 TODO
 
