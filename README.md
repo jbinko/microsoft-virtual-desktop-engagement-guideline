@@ -306,12 +306,12 @@ where customer has no existing solution based on Citrix/VMWare.
   - Automated management, set of maintenance actions.
   - BCDR capabilities, Image and patch management, Deployment, Application delivery
   - Rich reporting capabilities, session management and troubleshooting
-- Designed exclusively for Azure from the beginning and integrates seamlessly with Azure almost like native Azure service.
+- Designed exclusively for Azure from the beginning and integrates seamlessly with Azure like native Azure service.
 - Requires some license per user but Nerdio cost savings (via platform auto scale) by far offsets the cost of the inexpensive license.
 Licenses need should not be the blocker for the Nerdio solution.
 Licenses can be also purchased through the existing Azure Enterprise Agreement.
 
-# Qualifying questions for VMWare/Citrix management plane
+# Qualifying questions for AVD with Nerdio or other third-party management plane
 
 - Do you have a use case where you cannot or do not want to use DaaS based solution and/or Citrix/VMWare management plane?
 If yes, Nerdio solution with Azure can be a good option.
