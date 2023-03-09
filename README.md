@@ -287,7 +287,41 @@ Business, Technical features and limitations:
 
 ## AVD with Nerdio or other third-party management plane
 
-TODO
+Nerdio is a great option for customers who are not familiar with Citrix/VMWare products and features.
+Customers who would like to start with AVD in accelerated way, and they are looking for a simple,
+easy to use, adopt, manage, and easy to scale solution.
+Solution which can be easily managed by non-technical users and IT staff with limited technical skills.
+With rich feature set and capabilities Nerdio is addressing some feature gaps of pure AVD and
+brings even more benefits with cost optimizations.
+
+Business, Technical features and limitations:
+
+- AVD with Nerdio management plane is ideal and safe bet for greenfield, brownfield (small, medium, large) VDI projects
+where customer has no existing solution based on Citrix/VMWare.
+- Easy to implement, deploy, secure and easy to use and adopt. Accelerates delivery and time to value.
+- Feature rich environment which addresses some critical feature gaps in pure AVD option. E.g.
+  - Auto scale number of VMs based on real-time utilization
+  - Provisions/deletes resources on demand
+  - Changes storage tier based on demand
+  - Automated management, set of maintenance actions
+  - BCDR capabilities, Image and patch management, Deployment, Application delivery
+  - Rich reporting capabilities, session management and troubleshooting
+- Designed exclusively for Azure from the beginning and integrates seamlessly with Azure almost like native Azure service
+- Requires some license per user but Nerdio cost savings (via platform auto scale) by far offsets the cost of the inexpensive license.
+Licenses need should not be the blocker for the Nerdio solution.
+Licenses can be also purchased through existing Azure Enterprise Agreement.
+
+# Qualifying questions for VMWare/Citrix management plane
+
+- Do you have an use case where you cannot or do not want to use DaaS based solution and/or Citrix/VMWare management plane?
+If yes, Nerdio solution with Azure can be a good option.
+- Do you need to support the environment with limited IT staff and/or non-technical users? If yes, Nerdio solution with Azure can be a good option.
+- Do you need more essential and advanced tools for management, operations and cost optimizations? If yes, Nerdio solution with Azure can be a good option.
+- Do you need to implement VDI solution in relatively a short time frame with low efforts and accelerate time to value? If yes, Nerdio solution with Azure can be a good option.
+
+### Resources
+
+- <https://getnerdio.com/nerdio-manager-for-enterprise/>
 
 ## Project Delivery Checklist
 
