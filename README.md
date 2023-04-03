@@ -322,7 +322,3 @@ If yes, Nerdio solution with Azure can be a good option.
 ### Resources
 
 - <https://getnerdio.com/nerdio-manager-for-enterprise/>
-
-## Project Delivery Checklist
-
-TODO
