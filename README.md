@@ -119,6 +119,7 @@ Business, Technical features and limitations:
 
 - <https://www.microsoft.com/en-us/windows-365/faq>
 - <https://www.microsoft.com/en-us/windows-365/enterprise/configure>
+- <https://aka.ms/W365TEI>
 
 ## Microsoft Dev Box
 
